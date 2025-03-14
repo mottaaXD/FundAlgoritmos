@@ -4,5 +4,5 @@ while True:
     vezes = vezes + 1
     if num == 0:
         print(vezes)
-
+        
         
