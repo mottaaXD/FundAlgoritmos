@@ -1,10 +1,11 @@
+#Maneira tradicional como laco "for"
+
 quadrados = []
-
 for x in range(10):
-    quadrados.append(x * x)
+    quadrados.append(x*x)
 
-quadrados_comprehension = [x * x for x in range(10)]
+#usando list comprehension
+quadrados_comprehension = [x*x for x in range(10)]
 
 print(quadrados)
-
 print(quadrados_comprehension)
